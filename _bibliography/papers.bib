@@ -1,70 +1,71 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
+@article{10.3389/fncir.2020.00012,
+  abbr={FNCir},
+  author={Dematties, Dario and Rizzi, Silvio and Thiruvathukal, George K. and Pérez, Mauricio David and Wainselboim, Alejandro and Zanutto, B. Silvano},
+  title={A Computational Theory for the Emergence of Grammatical Categories in Cortical Dynamics},
+  journal={Frontiers in Neural Circuits},
+  volume={14},
+  pages={12},
+  year={2020},
+  url={https://www.frontiersin.org/article/10.3389/fncir.2020.00012},
+  html={https://www.frontiersin.org/article/10.3389/fncir.2020.00012},
+  pdf={fncir-14-00012.pdf},
+  doi={10.3389/fncir.2020.00012},
+  issn={1662-5110},
+  abstract={A general agreement in psycholinguistics claims that syntax and meaning are unified precisely and very quickly during online sentence processing. Although several theories have advanced arguments regarding the neurocomputational bases of this phenomenon, we argue that these theories could potentially benefit by including neurophysiological data concerning cortical dynamics constraints in brain tissue. In addition, some theories promote the integration of complex optimization methods in neural tissue. In this paper we attempt to fill these gaps introducing a computational model inspired in the dynamics of cortical tissue. In our modeling approach, proximal afferent dendrites produce stochastic cellular activations, while distal dendritic branches–on the other hand–contribute independently to somatic depolarization by means of dendritic spikes, and finally, prediction failures produce massive firing events preventing formation of sparse distributed representations. The model presented in this paper combines semantic and coarse-grained syntactic constraints for each word in a sentence context until grammatically related word function discrimination emerges spontaneously by the sole correlation of lexical information from different sources without applying complex optimization methods. By means of support vector machine techniques, we show that the sparse activation features returned by our approach are well suited—bootstrapping from the features returned by Word Embedding mechanisms—to accomplish grammatical function classification of individual words in a sentence. In this way we develop a biologically guided computational explanation for linguistically relevant unification processes in cortex which connects psycholinguistics to neurobiological accounts of language. We also claim that the computational hypotheses established in this research could foster future work on biologically-inspired learning algorithms for natural language processing applications.},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{dematties_parco_2019,
+  abbr={ParCo},
+  author={Dematties, Dario and Thiruvathukal, George K. and Rizzi, Silvio and Wainselboim, Alejandro Javier and Zanutto, Bonifacio Silvano},
+  title={Towards High-End Scalability on Biologically-Inspired Computational Models},
+  abstract={The interdisciplinary field of neuroscience has made significant progress in recent decades, providing the scientific community in general with a new level of understanding on how the brain works beyond the store-and-fire model found in traditional neural networks. Meanwhile, Machine Learning (ML) based on established models has seen a surge of interest in the High Performance Computing (HPC) community, especially through the use of high-end accelerators, such as Graphical Processing Units(GPUs), including HPC clusters of same. In our work, we are motivated to exploit these high-performance computing developments and understand the scaling challenges for new–biologically inspired–learning models on leadership-class HPC resources. These emerging models feature sparse and random connectivity profiles that map to more loosely-coupled parallel architectures with a large number of CPU cores per node. Contrasted with traditional ML codes, these methods exploit loosely-coupled sparse data structures as opposed to tightly-coupled dense matrix computations, which benefit from SIMD-style parallelism found on GPUs. In this paper we introduce a hybrid Message Passing Interface (MPI) and Open Multi-Processing (OpenMP) parallelization scheme to accelerate and scale our computational model based on the dynamics of cortical tissue. We ran computational tests on a leadership class visualization and analysis cluster at Argonne National Laboratory. We include a study of strong and weak scaling, where we obtained parallel efficiency measures with a minimum above 87% and a maximum above 97% for simulations of our biologically inspired neural network on up to 64 computing nodes running 8 threads each. This study shows promise of the MPI+OpenMP hybrid approach to support flexible and biologically-inspired computational experimental scenarios. In addition, we present the viability in the application of these strategies in high-end leadership computers in the future.},
+  booktitle={Advances in Parallel Computing, Parallel Computing Conference (ParCo)},
+  isbn={978-1-64368-070-5 (print) | 978-1-64368-071-2 (online)},
+  publisher={IOS Press, Amsterdam, New York, Tokyo},
+  address={Prague, Czech Republic},
+  editor={Ian, Foster and Gerhard, R. Joubert and Luděk, Kučera and Wolfgang, E. Nagel and Frans, Peters},
+  pages={497-506},
+  days={12},
+  month={sep},
+  year={2020},
+  html={http://ebooks.iospress.nl/publication/53956},
+  pdf={APC-36-APC200077.pdf},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{10.1371/journal.pone.0217966,
+  abbr={PLOS ONE},
+  author = {Dematties, Dario AND Rizzi, Silvio AND Thiruvathukal, George K. AND Wainselboim, Alejandro AND Zanutto, B. Silvano},
+  journal = {PLOS ONE},
+  publisher = {Public Library of Science},
+  title = {Phonetic acquisition in cortical dynamics, a computational approach},
+  year = {2019},
+  month = {06},
+  volume = {14},
+  url = {https://doi.org/10.1371/journal.pone.0217966},
+  pages = {1-28},
+  abstract = {Many computational theories have been developed to improve artificial phonetic classification performance from linguistic auditory streams. However, less attention has been given to psycholinguistic data and neurophysiological features recently found in cortical tissue. We focus on a context in which basic linguistic units–such as phonemes–are extracted and robustly classified by humans and other animals from complex acoustic streams in speech data. We are especially motivated by the fact that 8-month-old human infants can accomplish segmentation of words from fluent audio streams based exclusively on the statistical relationships between neighboring speech sounds without any kind of supervision. In this paper, we introduce a biologically inspired and fully unsupervised neurocomputational approach that incorporates key neurophysiological and anatomical cortical properties, including columnar organization, spontaneous micro-columnar formation, adaptation to contextual activations and Sparse Distributed Representations (SDRs) produced by means of partial N-Methyl-D-aspartic acid (NMDA) depolarization. Its feature abstraction capabilities show promising phonetic invariance and generalization attributes. Our model improves the performance of a Support Vector Machine (SVM) classifier for monosyllabic, disyllabic and trisyllabic word classification tasks in the presence of environmental disturbances such as white noise, reverberation, and pitch and voice variations. Furthermore, our approach emphasizes potential self-organizing cortical principles achieving improvement without any kind of optimization guidance which could minimize hypothetical loss functions by means of–for example–backpropagation. Thus, our computational model outperforms multiresolution spectro-temporal auditory feature representations using only the statistical sequential structure immerse in the phonotactic rules of the input stream.},
+  number = {6},
+  doi = {10.1371/journal.pone.0217966},
+  html={https://doi.org/10.1371/journal.pone.0217966},
+  pdf={journal.pone.0217966.pdf},
+  selected={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{9135949,
+  abbr={EuCAP},
+  abstract={This paper presents an extension to previous work, using neural networks to characterize materials in microwave frequencies, to extend the applicability of a deep learning model to be able to characterize the dielectric properties of biological tissues. A neural network model using convolutional and fully connected layers is designed to predict the permittivity and loss tangent using the scattering parameters from a coplanar waveguide transmission sensor. Simulated data from the sensor provide a large dataset, with a wide range of values for the permittivity and loss tangent, which is used to train and test the model. The trained network is validated by predicting the output parameters on the test set. Compared with previous work, by using convolutional layers the applicable parameter space is vastly extended while keeping satisfying levels of accuracy. A complete system with a trained network is proposed to be used in a lab or in clinics.},
+  author={V. {Mattsson} and M. D. {Perez} and D. {Dematties} and R. {Augustine}},
+  booktitle={2020 14th European Conference on Antennas and Propagation (EuCAP)},
+  title={Neural Network Approach for Dielectric Characterization of Tissues in Microwave Frequencies using Coplanar Waveguide Transmission},
+  year={2020},
+  volume={},
+  number={},
+  pages={1-5},
+  html={https://ieeexplore.ieee.org/document/9135949},
+  doi={10.23919/EuCAP48036.2020.9135949}
 }
