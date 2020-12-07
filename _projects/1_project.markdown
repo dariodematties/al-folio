@@ -1,77 +1,132 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
-importance: 1
+title: Language in Cortex
+description: In this project I developed neurocomputational theories for the acquisition of language in cortical dynamics
+img: /assets/img/EncoderConnections.png
+<!--img: /assets/img/12.jpg-->
+importance: 2
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The human brain is the most complex object created by evolution in the known universe.
+Yet, how much of this complexity is devoted to exclusively carrying out its algorithmic capabilities
+and how much of it has been inherited from biological paths of evolution in order
+to work properly in its physical environment?
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+What if the information processing properties of the brain could be reduced to a few simple
+columnar rules replicated throughout the neocortex?
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In this research project I seek for those principles by means of the elaboration of computational models
+inspired in the neocortex.
+On the one hand, the simpler the rules, the more repetitions of such rules are needed in order to get
+interesting -human like- behaviours -such as perception invariance.
+The mammalian brain -with its possible combinatorial states going beyond the number of atoms in the known universe-
+gives us categorical clues in favor of such a position.
+On the other hand, the more repetitions of those simple rules, the more computational resources
+are needed to implement the models.
+
+I approached this endeavour trying to replicate human early language acquisition capabilities.
+I started with human early acquisition of phonotactic rules, specific to a particular language.
+I implemented a neurocomputational model whose biological inspiration
+-at the cortical level- allowed me to test neurophysiological hypotheses incorporated in the algorithms.
+With the desired number of layers, this model abstracted phonological features
+in a completely unsupervised fashion.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/EncoderConnections1.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    
+Brodmann areas 41 and 42 are parts of the primary auditory cortex. This is the first cortical destination of auditory information stemming from the thalamus. Neural activity in this brain part corresponds most strongly with the objective physical properties of a sound.
+Source <a href="https://en.wikipedia.org/wiki/Brodmann_areas_41_and_42" target="_blank">Wikipedia</a>.
+Image adapted from <a href="https://svgsilh.com/image/155655.html" target="_blank">here</a> CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.  
+Image adapted from <a href="https://doi.org/10.1371/journal.pone.0217966" target="_blank">here</a> under CC-BY licence.
+.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+
+
+In a posterior work I tested the computational hypotheses previously used for phonetics, but this time, for the acquisition of grammatical features of words inside a sentence context by means of semantic clustering and sequential analysis inside the sentences.
+
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/EncoderConnections.png' | relative_url }}" alt="" title="example image"/>
+    </div>
+</div>
+<div class="caption">
+    
+The inferior frontal gyrus has a number of functions including the processing of speech and language in Broca's area. Neural circuitry has been shown to connect different sites of stimulus to other regions of response including other subdivisions and also other frontal gyri..
+Source <a href="https://en.wikipedia.org/wiki/Inferior_frontal_gyrus#:~:text=up%20Broca's%20area.-,Function,and%20also%20other%20frontal%20gyri." target="_blank">Wikipedia</a>.
+Image adapted from <a href="https://svgsilh.com/image/155655.html" target="_blank">here</a> CC0 1.0 Universal (CC0 1.0) Public Domain Dedication.  
+Image adapted from <a href="https://doi.org/10.1371/journal.pone.0217966" target="_blank">here</a> under CC-BY licence.
+.
+</div>
+
+
+
+
+The algorithms in our hierarchical cortical memory (HCM) are C++14 compliant,
+they are composed by a set of classes interrelated by inheritance and composition.
+The classes in the algorithms are parallelized by means of OpenMP
+-for the classes located at the bottom of the inheritance hierarchy-
+and MPI -for the classes at the top of the inheritance hierarchy.
+This implementation has the capacity of storing its outputs in Matlab and Octave file formats
+and it is suitable for the use of parallel I/O file systems.
+
+
+
+This project received High Performance Computing (HPC) mentoring
+from [Silvio Rizzi](https://www.alcf.anl.gov/about/people/silvio-rizzi) (HPC assistant at ALCF) and [George K. Thiruvathukal](https://www.luc.edu/cs/people/ftfaculty/gkt.shtml)
+(Professor of Computer Science, Loyola University Chicago).
+I have been provided with an Argonne Leadership Computing Facility
+Allocation whose project name is neurophon and all the code is
+allocated in a [GitLab](https://xgitlab.cels.anl.gov/srizzi/neurophon) repository at Argonne.
+It is also allocated on [GitHub](https://github.com/neuroph).
+By means of Argonne staff assistance, we performed strong and weak
+scaling tests in Cooley nodes which returned encouraging results
+in terms of multi-threading (OpenMP), multi-processing (MPI) and as an
+hybrid implementation (MPI-OpenMP).
+
 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/inheritance_composition.png' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Parallelization.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+ Hierarchical Inheritance and Compositional Structure of the Implementation of the models in C++. 
+ Towards a High Scalability in Bio-Inspired Models.
+ Image adapted from <a href="http://ebooks.iospress.nl/volumearticle/53956" target="_blank">here</a> under CC BY-NC 4.0 licence.
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

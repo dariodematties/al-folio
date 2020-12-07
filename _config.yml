@@ -12,7 +12,6 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
@@ -39,20 +38,20 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: dariodematties # your GitHub user name
 twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+linkedin_username: dario-dematties-aa034463/?locale=en_US # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
+research_gate_profile: Dario_Dematties # your profile on ResearchGate
 blogger_url: # your blogger URL
 keybase_username: # your keybase user name
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is by e-mail!
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 

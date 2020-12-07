@@ -1,78 +1,70 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: /assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Active Foveated Vision
+description: In this project I approach multimodal intelligence by means of active foveated vision
+img: /assets/img/Rigoberta.JPG
+importance: 1
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This is my postdoctoral project. In this I am trying to achieve self-supervised learning in vision using contrastive learning.
+Yet, in this project I am using foveated fixations as a natural augmentation method.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+To that end I designed my own active foveated system using [NVIDIA DALI](https://github.com/NVIDIA/DALI) library.
+
+This is a fixation output from my foveated saccadic system.
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Ele_1.png' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Ele_2.png' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Ele_3.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The smaller the section of the cropped image, the bigger the resolution. Just like in our retina, the larger the span, the lower the resolution. Highest resolution is located in a tini section of the retina called fovea.
 </div>
+
+
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Ele_4.png' | relative_url }}" alt="" title="example image"/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/Ele_5.png' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    This system mimics such phenomenon and images have to be scanned by the system by means of several fixations.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+## Some of the big questions here are
+
+* Is this foveated system paramount to acquire good visual representations in our visual system?
+
+* How does it affect our perception of the world and our production and processing of higher cognitive phenomena such as language?
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+
+## Who else is participating?
+
+* [Silvio Rizzi](https://www.alcf.anl.gov/about/people/silvio-rizzi)
+* [George K. Thiruvathukal](https://www.luc.edu/cs/people/ftfaculty/gkt.shtml) and
+* [Alejandro J. Wainselboim](https://www.conicet.gov.ar/new_scp/detalle.php?id=29768&datos_academicos=yes&keywords=)
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+
+
+
+
+
+
+
