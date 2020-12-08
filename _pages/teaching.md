@@ -9,11 +9,11 @@ nav: true
 <html>
 <body>
 
-<h1>Postgraduate Pedagogical Experience</h1>
+<h2>Postgraduate Pedagogical Experience</h2>
 
-<hr size="25" width="100%" color="blak">  
+<hr size="25" width="100%" color="magenta">  
 
-<h2>&nbsp; INCIHUSA CCT, Lecturer</h2>
+<h3>&nbsp; INCIHUSA CCT, Lecturer</h3>
 
 <p>&nbsp; &nbsp; &nbsp; <i> 2016-2016, Mendoza, Argentina </i> </p>
 
@@ -26,7 +26,7 @@ nav: true
 <br>
 
 
-<h2>&nbsp; INCIHUSA CCT, Lecturer</h2>
+<h3>&nbsp; INCIHUSA CCT, Lecturer</h3>
 
 <p>&nbsp; &nbsp; &nbsp; <i> 2015-2015, Mendoza, Argentina </i> </p>
 
@@ -45,12 +45,12 @@ nav: true
 
 
 
-<h1>University Pedagogical Experience</h1>
+<h2>University Pedagogical Experience</h2>
 
-<hr size="25" width="100%" color="blak">  
+<hr size="25" width="100%" color="magenta">  
 
 
-<h2>&nbsp; Universidad Juán Agustín Maza, University teacher</h2>
+<h3>&nbsp; Universidad Juán Agustín Maza, University teacher</h3>
 
 <p>&nbsp; &nbsp; &nbsp; <i> 2013-2013, Mendoza, Argentina </i> </p>
 
@@ -64,7 +64,7 @@ nav: true
 <br>
 
 
-<h3>&nbsp; Universidad Tecnológica Nacional, University First Assistant</h3>
+<h4>&nbsp; Universidad Tecnológica Nacional, University First Assistant</h4>
 
 <p>&nbsp; &nbsp; &nbsp; <i> 2013-2013, Mendoza, Argentina </i> </p>
 
@@ -78,7 +78,7 @@ nav: true
 
 
 
-<h3>&nbsp; Universidad Tecnológica Nacional, University First Assistant</h3>
+<h4>&nbsp; Universidad Tecnológica Nacional, University First Assistant</h4>
 
 <p>&nbsp; &nbsp; &nbsp; <i> 2013-2013, Mendoza, Argentina </i> </p>
 
@@ -95,7 +95,7 @@ nav: true
 
 
 
-<h4>&nbsp; Universidad Tecnológica Nacional, University Second Assistant</h4>
+<h5>&nbsp; Universidad Tecnológica Nacional, University Second Assistant</h5>
 
 <p>&nbsp; &nbsp; &nbsp; <i> 2012-2013, Mendoza, Argentina </i> </p>
 
@@ -108,7 +108,7 @@ nav: true
 <br>
 
 
-<h4>&nbsp; Universidad Tecnológica Nacional, University Tutor</h4>
+<h5>&nbsp; Universidad Tecnológica Nacional, University Tutor</h5>
 
 <p>&nbsp; &nbsp; &nbsp; <i> 2012-2013, Mendoza, Argentina </i> </p>
 
@@ -122,7 +122,7 @@ nav: true
 
 
 
-<h4>&nbsp; Universidad Tecnológica Nacional, University Second Assistant</h4>
+<h5>&nbsp; Universidad Tecnológica Nacional, University Second Assistant</h5>
 
 <p>&nbsp; &nbsp; &nbsp; <i> 2011-2013, Mendoza, Argentina </i> </p>
 
@@ -138,7 +138,7 @@ nav: true
 
 
 
-<h4>&nbsp; Universidad Tecnológica Nacional, University Tutor</h4>
+<h5>&nbsp; Universidad Tecnológica Nacional, University Tutor</h5>
 
 <p>&nbsp; &nbsp; &nbsp; <i> 2007-2013, Mendoza, Argentina </i> </p>
 
@@ -159,30 +159,3 @@ nav: true
 </body>
 </html>
 
-<!--# Postgraduate Pedagogical Experience-->
-
-<!--## INCIHUSA CCT, Lecturer-->
-
- <!--*2016-2016, Mendoza, Argentina*-->
-
-<!--* Linguistics and Experimental Neurobiology of Language.-->
-
-<!--* Covered topics: Hierarchical Temporal Memory, Cortical Learning. Algorithm, Sparse Distributed Representations, Semantic Folding Theory.-->
-
-<!--## INCIHUSA CCT, Lecturer-->
-
- <!--*2015-2015, Mendoza, Argentina*-->
-
-<!--* Linguistics and Experimental Neurobiology of Language.-->
-
-<!--* Covered topics: Memory Prediction Framework, Hierarchical Temporal Memory, Modeling children’s early grammatical knowledge with Bayesian Processes.-->
-
-<!--# University Pedagogical Experience-->
-
-<!--## Universidad Juán Agustín Maza, University teacher-->
-
-
-
-<!--For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.-->
-
-<!--Organize your courses by years, topics, or universities, however you like!-->

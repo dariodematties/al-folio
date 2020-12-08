@@ -84,7 +84,7 @@ from [Silvio Rizzi](https://www.alcf.anl.gov/about/people/silvio-rizzi) (HPC ass
 I have been provided with an Argonne Leadership Computing Facility
 Allocation whose project name is neurophon and all the code is
 allocated in a [GitLab](https://xgitlab.cels.anl.gov/srizzi/neurophon) repository at Argonne.
-It is also allocated on [GitHub](https://github.com/neuroph).
+It is also allocated on [GitHub](https://github.com/neurophon).
 By means of Argonne staff assistance, we performed strong and weak
 scaling tests in Cooley nodes which returned encouraging results
 in terms of multi-threading (OpenMP), multi-processing (MPI) and as an
