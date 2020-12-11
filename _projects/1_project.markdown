@@ -3,7 +3,6 @@ layout: page
 title: Language in Cortex
 description: In this project I developed neurocomputational theories for the acquisition of language in cortical dynamics
 img: /assets/img/EncoderConnections.png
-<!--img: /assets/img/12.jpg-->
 importance: 2
 ---
 

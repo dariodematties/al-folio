@@ -17,12 +17,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Dr. Dario Dematties, received his bachelor's degree in electronic engineering from the [National Technological University (UTN)](http://www.frm.utn.edu.ar/index.php) in 2013 in Mendoza, Argentina. Then in 2020 he received his Ph.D. degree at the [Institute of Biomedical Engineering](http://www.fi.uba.ar/es/node/132) in the [University of Buenos Aires](http://www.fi.uba.ar/).
+Dr. Dario Dematties, received his bachelor's degree in electronic engineering from the [National Technological University (UTN)](http://www.frm.utn.edu.ar/index.php) in 2013 in Mendoza, Argentina. Then in 2020 he received his Ph.D. degree at the [Institute of Biomedical Engineering](http://www.fi.uba.ar/es/node/132) at the [University of Buenos Aires](http://www.fi.uba.ar/).
 
-During his Ph.D., Dr Dematties worked to identify neuroanatomical and physiological features in mammalian cortical tissue that could leverage phonetic perception invariance and generalization as well as higher linguistic functions such as grammar and semantic sentence classification in biologically inspired computational models. Dr. Dematties used a computational approach completely unsupervised that incorporated key neurophysiological and anatomical properties that exist in brain cortex. 
+During his Ph.D., Dr Dematties worked to identify neuroanatomical and physiological features in mammalian cortical tissue that could leverage phonetic perception invariance and generalization as well as higher linguistic functions such as grammar and semantic sentence classification in biologically inspired computational models. Dr. Dematties used a computational approach completely unsupervised that incorporated key neurophysiological and anatomical properties that exist in the brain cortex. 
 
-He runs his models on [Cooley nodes](https://www.alcf.anl.gov/support-center/cooley/cooley-system-overview) (a visualization and analysis cluster at [Argonne National Laboratory](https://www.anl.gov/)).
-During the last years, one of his main activities has been related to High-Performance Computing (HPC) and to run a profiling test of his computational approach on Cooley.
+He runs his models on [Cooley](https://www.alcf.anl.gov/support-center/cooley/cooley-system-overview) (a visualization and analysis cluster) and on [Theta GPUs](https://www.alcf.anl.gov/support-center/theta/theta-thetagpu-overview) (a supercomputer for training artificial intelligence (AI) datasets) both at [Argonne National Laboratory](https://www.anl.gov/).
+In recent years, he has focused on High-Performance Computing (HPC) and code optimizations for his computational approach.
 
 
 Dr. Dematties has currently a postdoctoral position at [INCIHUSA CCT CONICET](https://www.mendoza.conicet.gov.ar/portal/incihusa/) where he uses Deep Learning Frameworks for the implementation of self-supervised contrastive learning of visual representations through active foveated saccades.
